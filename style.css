@@ -8,9 +8,15 @@ body{
      height: 100%;
      width: 200%;
 }
-#box{
+#box1{
      height: 300px;
      width: 300px;
      border-radius: 5px;
      background-color: rgba(255, 0, 0, 0.655);
+}
+#box2{
+     height: 300px;
+     width: 300px;
+     border-radius: 5px;
+     background-color: rgba(0, 255, 76, 0.655);
 }
