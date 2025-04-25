@@ -1,40 +1,87 @@
-console.log("hello Gsap")
+// console.log("hello Gsap")
 
-gsap.to("#box1",{
-     x:900,
-     duration:2,
-     delay:2,
-     rotate:360,
-     backgroundColor:"blue",
-})
-gsap.from("#box2",{
-     x:900,
-     duration:2,
-     delay:2,
-     rotate:360,
-     borderRadius:"50%",
-     yoyo: true,
-     repeat:1
-})
 
-gsap.from("h1",{
-     y:30,
-     x:50,
-     color:"white",
+let tl = gsap.timeline()
+ tl.from(".logo ",{
+     y:-40,
      opacity:0,
-     duration:2,
-     delay:1,
-     color:"white",
-     stagger:-1,
-     repeat:-1
-})
+     duration:1.5,
+     delay:0.5,
+     stagger:0.3,
+ })
+ tl.from(".menu li ",{
+     y:-40,
+     opacity:0,
+     duration:1.5,
+     delay:0.5,
+     stagger:.2,
+ })
 
-var tl = gsap.timeline();
 
-tl.to("#box4",{
-     x:900,
-     duration:1,
-     delay:1.2,
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// gsap.to("#box1",{
+//      x:900,
+//      duration:2,
+//      delay:2,
+//      rotate:360,
+//      backgroundColor:"blue",
+// })
+// gsap.from("#box2",{
+//      x:900,
+//      duration:2,
+//      delay:2,
+//      rotate:360,
+//      borderRadius:"50%",
+//      yoyo: true,
+//      repeat:1
+// })
+
+// gsap.from("h1",{
+//      y:30,
+//      x:50,
+//      color:"white",
+//      opacity:0,
+//      duration:2,
+//      delay:1,
+//      color:"white",
+//      stagger:-1,
+//      repeat:-1
+// })
+
+// var tl = gsap.timeline();
+
+// tl.to("#box4",{
+//      x:900,
+//      duration:1,
+//      delay:1.2,
+// })
 
      
