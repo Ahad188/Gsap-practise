@@ -12,11 +12,36 @@ let tl = gsap.timeline()
  tl.from(".menu li ",{
      y:-40,
      opacity:0,
-     duration:1.5,
+     duration:0.5,
      delay:0.5,
      stagger:.2,
  })
-
+// banner section animation
+tl.from(".banner-left h3",{
+     x:-500,
+     duration:1.2,
+     delay:0.1,
+     opacity:0,
+},"anim")
+tl.from(".banner-left p",{
+     y:200,
+     duration:1.2,
+     delay:0,
+     opacity:0,
+},"anim")
+tl.to(".banner-left #btn",{
+     x:0,
+     duration:1.2,
+     delay:.2,
+     opacity:1,
+},'anim')
+tl.from(".banner-right .img",{
+     x: 900,          // From left side
+     opacity: 1,
+     duration: 1.7,
+     delay: 1,
+     
+},'anim')
 
 
 
