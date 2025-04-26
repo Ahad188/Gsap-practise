@@ -106,7 +106,30 @@ body{
      object-fit: cover;
      opacity: 1;
 }
- 
+ /* page 2 */
+ .page2{
+     height: 100vh;
+     background-color: olivedrab;
+     width: 100%;
+     margin-top: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .box2{
+     height: 400px;
+     width: 400px;
+     border-radius: 13px;
+     background-color: orchid;
+     
+ }
+
+ /* page3 */
+ .page3{
+     height: 800px;
+     width: 100%;
+     background-color: darkorange;
+ }
 
 
 
